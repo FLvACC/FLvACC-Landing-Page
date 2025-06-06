@@ -20,6 +20,7 @@ dream.addEventListener('transitionend', () => {
         flightline.style.transition = 'opacity 0.75s ease-out';
     }, 50);
 });
+dream.style.opacity = 0.9;
 dream.style.opacity = 1;
 flightline.style.opacity = 1;
 const topContainer = document.getElementById('top');
